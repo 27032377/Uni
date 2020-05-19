@@ -4,7 +4,10 @@
   "description": "UniApp uni-app uni mp mini-program",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:mp-weixin": "cross-env NODE_ENV=development UNI-PLATFROM=mp-weixin vue-cli-service --mode development",
+    "sit:mp-weixin": "cross-env NODE_ENV=sit UNI-PLATFROM=mp-weixin vue-cli-service uni-build --mode sit",
+    "build:mp-weixin": "cross-env NODE_ENV=production UNI-PLATFROM=mp-weixin vue-cli-service --mode production"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,28 @@
   },
   "homepage": "https://github.com/27032377/Uni#readme",
   "devDependencies": {
-    "vuex": "^3.4.0"
+    "@vue/cli-service": "^4.3.1",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.5.3",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "vue-cli": "^2.9.6",
+    "vuex": "^3.4.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "uni-app": {
+    "scripts": {
+      "mp-weixin": {
+        "title": "Uni-github",
+        "env": {
+          "UNI-PLATFORM": "mp-weixin"
+        },
+        "define": {
+          "MP-WEIXIN": true
+        }
+      }
+    }
   }
 }
