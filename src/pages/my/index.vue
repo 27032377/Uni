@@ -1,5 +1,5 @@
 <template>
-	<view class="my_wrapper">
+	<view class="view-my">
 		<text>我的</text>
 		<text>{{env}}</text>
 	</view>
@@ -24,8 +24,4 @@
 </script>
 
 <style>
-.my_wrapper {
-	width: 100%;
-	height: 100%;
-}
 </style>

@@ -4,6 +4,11 @@
 	export default {
 		onLaunch () {
 			console.log('App Launch')
+			uni.onTabBarMidButtonTap(() => {
+				uni.navigateTo({
+					url: 'src/pages/community/index'
+				})
+			})
 		},
 		onShow () {
 			console.log('App Show')
