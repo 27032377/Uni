@@ -49,6 +49,9 @@
 			}
 		]
 	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
 	"tabBar": {
 		"color": "#333333",
 		"selectedColor": "#007AFF",
@@ -71,7 +74,7 @@
 		}, {
 			"iconPath": "static/assets/images/icon_community_n.png",
 			"selectedIconPath": "static/assets/images/icon_community_y.png",
-			"pagePath": "src/pages/data/index",
+			"pagePath": "src/pages/community/index",
 			"text": "社区"
 		}, {
 			"iconPath": "static/assets/images/icon_data_n.png",

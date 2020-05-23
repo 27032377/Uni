@@ -1,0 +1,72 @@
+{
+	"tab": [
+		{
+			"name": "头条",
+			"tabId": "001"
+		},
+		{
+			"name": "热门",
+			"tabId": "002"
+		},
+		{
+			"name": "关注",
+			"tabId": "003"
+		},
+		{
+			"name": "中超",
+			"tabId": "004"
+		},
+		{
+			"name": "全网热议",
+			"tabId": "005"
+		},
+		{
+			"name": "小酒馆",
+			"tabId": "006"
+		},
+		{
+			"name": "视频",
+			"tabId": "007"
+		},
+		{
+			"name": "集锦",
+			"tabId": "008"
+		},
+		{
+			"name": "英超",
+			"tabId": "008"
+		},
+		{
+			"name": "西甲",
+			"tabId": "009"
+		},
+		{
+			"name": "德甲",
+			"tabId": "010"
+		},
+		{
+			"name": "意甲",
+			"tabId": "011"
+		},
+		{
+			"name": "法甲",
+			"tabId": "012"
+		},
+		{
+			"name": "欧冠",
+			"tabId": "013"
+		}
+	],
+	"swiper": [
+		{
+			"src": "https://bdimg2.qunliao.info/tos-cn-i-j5hyufq5o6/fastdfs5/M00/1A/63/rB8CCl7HPDuATHDBAA1_GG8pTUw007.png~tplv-j5hyufq5o6-crop:280:210.jpeg",
+			"link": "",
+			"article": "\"病毒大帝\"本纪"
+		},
+		{
+			"src": "https://bdimg2.qunliao.info/tos-cn-i-j5hyufq5o6/fastdfs5/M00/1A/98/rB8CCl7ImVaAI_WiAACVw7lt-g4420.jpg~tplv-j5hyufq5o6-crop:280:210.jpeg",
+			"link": "",
+			"article": "足协公布三级联赛准入名单"
+		}
+	]
+}

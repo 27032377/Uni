@@ -37,6 +37,7 @@
 </script>
 
 <style lang="scss">
-	@import '@/uni.scss'
+	@import '@/uni.scss';
+	
 	/*每个页面公共css */
 </style>

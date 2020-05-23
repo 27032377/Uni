@@ -5,12 +5,10 @@ Vue.use(Vuex)
 
 const store = new Vuex.Store({
 	state: {
-		loading: false
+		zIndex: 100
 	},
 	mutations: {
-		changeLoading (state, bol) {
-			state.loading = bol
-		}
+		
 	}
 })
 
